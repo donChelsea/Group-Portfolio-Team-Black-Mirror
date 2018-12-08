@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Group_Portfolio_HW_TEAM_BLACK_MIRROR</string>
+    <string name="description_string">Welcome to our app! Here you can view the most recent projects from each member of our dedicated developer team. \n\nUse the navigation options to read all about us! </string>
+    <string name="biography_text">Chelsea sees herself as a real life \'Coming to America\' story. Being born in Zimbabwe has
+        given her a unique perspective of what we consider the pursuit of life, liberty, and property. Through Pursuit, she hope to become a successful developer
+     and entrepreneur. Her goal is to pay it forward through a foundation focused on helping underprivileged people, like herself, learn the technical and soft skills for code. She is a huge Drake, SZA, and H.E.R. fan.
+        \nShe is currently a desktop technician and lives in Long Island, New York.</string>
+    <string name="team_black_mirror">Team Black Mirror</string>
+    <string name="github">GitHub</string>
+    <string name="project_1_menu_title">Stringify!</string>
+    <string name="project_2_menu_title">Bank of Pursuit</string>
+    <string name="project_3_menu_title">Paradiso the Game</string>
+    <string name="name">Chelsea Katsidzira</string>
+    <string name="marly">Marly</string>
+    <string name="khaing">Khaing</string>
+    <string name="gregg">Gregg</string>
+    <string name="chelsea">Chelsea</string>
+    <string name="todo">TODO</string>
+    <string name="group_portfolio">Group Portfolio</string>
+    <string name="nav_home">Home</string>
+    <string name="my_bio_text">I\'m a Haitian-American and lifelong student. Born and raised in Brooklyn, NY, I am currently pursing a career in tech by learning Android Development at the selective coding program called Pursuit. I love the start-up life and have worked for Taboola and quip, among other start-ups. I\'m looking forward towards a bright future and lead my life with optimism.</string>
+    <string name="create_your_own_adventure">Create Your Own Adventure</string>
+    <string name="bank_teller_demo">Bank Teller Demo</string>
+    <string name="madlibs_app_demo">MadLibs App Demo</string>
+    <string name="works">Shows Works</string>
+    <string name="next">Next</string>
+    <string name="bio_image">bio_image</string>
+    <string name="click_here">Click Here</string>
+</resources>

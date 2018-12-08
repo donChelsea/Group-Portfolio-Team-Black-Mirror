@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/marly"
+            android:title="@string/marly"/>
+
+        <item
+            android:id="@+id/khaing"
+            android:title="@string/khaing"/>
+
+        <item
+            android:id="@+id/gregg"
+            android:title="@string/gregg"/>
+
+        <item
+            android:id="@+id/chelsea"
+            android:title="@string/chelsea"
+            android:icon="@mipmap/ic_launcher_round"/>
+
+    </group>
+</menu>
