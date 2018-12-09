@@ -5,7 +5,8 @@
 
         <item
             android:id="@+id/marly"
-            android:title="@string/marly"/>
+            android:title="@string/marly"
+            android:icon="@mipmap/ic_marly_pic_round"/>
 
         <item
             android:id="@+id/khaing"

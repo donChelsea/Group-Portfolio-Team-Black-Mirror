@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
                         Intent chelseaIntent = new Intent(MainActivity.this, Biography.class);
                         startActivity(chelseaIntent);
                         drawerLayout.closeDrawers();
+                        break;
+                    case R.id.marly:
+                        menuItem.setChecked(true);
+                        Intent marlyIntent = new Intent(MainActivity.this, Marly_Biography.class);
+                        startActivity(marlyIntent);
+                        drawerLayout.closeDrawers();
+                        break;
                     default:
                 }
                 return true;

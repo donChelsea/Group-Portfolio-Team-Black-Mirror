@@ -7,8 +7,31 @@
     android:layout_height="match_parent"
     android:background="#000000"
     android:orientation="vertical"
-    tools:context=".Biography"
+    tools:context=".Marly_Biography"
     tools:layout_editor_absoluteY="81dp">
+    <include
+        layout="@layout/drawer_layout" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/marly_name"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/give_you_glory"
+        app:layout_constraintBottom_toTopOf="@+id/my_bio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ScrollView
         android:id="@+id/my_bio"
@@ -18,11 +41,12 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,9 +60,9 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="12dp"
-                android:src="@mipmap/ic_marly_pic_round"
                 android:background="@drawable/bio_pic_background"
                 android:contentDescription="@string/bio_image"
+                android:src="@mipmap/ic_marly_pic_round"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="@id/tv"
                 app:srcCompat="@mipmap/ic_marly_pic_round"
@@ -47,31 +71,14 @@
             <TextView
                 android:id="@+id/tv"
                 android:layout_width="match_parent"
-                android:layout_height="317dp"
-                android:fontFamily="@font/roboto"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/give_you_glory"
                 android:text="@string/my_bio_text"
                 android:textAlignment="textStart"
                 android:textColor="#ffffff"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:typeface="normal" />
         </LinearLayout>
     </ScrollView>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:background="#cbfc011a"
-        android:text="@string/next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.935"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/my_bio"
-        app:layout_constraintVertical_bias="0.787" />
 
 </android.support.constraint.ConstraintLayout>

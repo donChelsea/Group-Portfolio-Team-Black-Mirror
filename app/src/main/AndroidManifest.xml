@@ -19,12 +19,16 @@
         <activity
             android:name=".Biography"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Marly_Biography"
+            android:parentActivityName=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Marly_Biography"></activity>
+
+
     </application>
 
 </manifest>
