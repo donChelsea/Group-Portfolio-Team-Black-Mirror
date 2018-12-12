@@ -9,20 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
+
         <activity android:name=".MainActivity">
+        </activity>
+
+        <activity android:name=".SplashPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
+    <activity
             android:name=".Biography"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Marly_Biography"
             android:parentActivityName=".MainActivity" />
-
+        <activity
+            android:name=".Khaing_Biography"
+            android:parentActivityName=".MainActivity" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

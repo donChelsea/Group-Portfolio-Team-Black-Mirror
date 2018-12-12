@@ -10,11 +10,13 @@
 
         <item
             android:id="@+id/khaing"
-            android:title="@string/khaing"/>
+            android:title="@string/khaing"
+            android:icon="@mipmap/ic_launcher_round"/>
 
         <item
             android:id="@+id/gregg"
-            android:title="@string/gregg"/>
+            android:title="@string/gregg"
+            android:icon="@mipmap/ic_launcher_round"/>
 
         <item
             android:id="@+id/chelsea"

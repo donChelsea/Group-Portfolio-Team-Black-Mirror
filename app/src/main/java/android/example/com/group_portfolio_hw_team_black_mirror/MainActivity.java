@@ -54,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(marlyIntent);
                         drawerLayout.closeDrawers();
                         break;
+                    case R.id.khaing:
+                        menuItem.setChecked(true);
+                        Intent khaingIntent = new Intent(MainActivity.this, Khaing_Biography.class);
+                        startActivity(khaingIntent);
+                        drawerLayout.closeDrawers();
+                        break;
                     default:
                 }
                 return true;

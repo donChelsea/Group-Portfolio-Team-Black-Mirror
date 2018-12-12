@@ -27,4 +27,21 @@
     <string name="bio_image">bio_image</string>
     <string name="click_here">Click Here</string>
     <string name="marly_name">Marly Dantes</string>
+    <string name="khaing_name">Khaing Mar Soe</string>
+    <string name="khaing_biography">\tKhaing wants to live in a world filled with innovative ideas, and books that come bundled with cakes.\n
+        \n\tKhaing is currently working as an event planner at the City University of New York (CUNY).
+        She can throw great parties, meetings or conferences.
+        \tWhen she is not meeting with clients to work out event details such as planning the events with the clients, scouting and booking locations, food, entertainment, etc., you can find her learning how to code at Pursuit.
+        She is currently enrolled in an intensive 10-month, Google-funded software engineering fellowship with a 9% acceptance rate (out of 1500+ applicants) and gaining hands-on experience with Java, Android SDK, REST APIs, Git, Data Structures, Algorithms, and tech principles and culture via both team/individual projects, code reviews, and pair programming.
+        \n\tShe enjoys lounging at a beach with a good book and playing with puppies.
+</string>
+    <string name="picture">PICTURE</string>
+    <string name="text_based_adventure_game">Game</string>
+    <string name="mad_libs_story">Story</string>
+    <string name="recyclerview_exercise">RecyclerView</string>
+    <string name="k_biography">k_biography</string>
+    <string name="khaing_mar_soe">Khaing Mar Soe</string>
+    <string name="khaing_mar_soe_main_activity">KHAING MAR SOE</string>
+    <string name="splash_team_black_mirror">TEAM BLACK MIRROR</string>
+    <string name="splash_picture">splash_picture</string>
 </resources>
