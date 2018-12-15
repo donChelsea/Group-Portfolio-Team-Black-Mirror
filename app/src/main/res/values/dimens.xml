@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--dimens for name in bio activity-->
+
+    <dimen name="name_margin_start">8dp</dimen>
+    <dimen name="name_margin_left">8dp</dimen>
+    <dimen name="name_margin_top">84dp</dimen>
+    <dimen name="name_margin_end">8dp</dimen>
+
+    <dimen name="name_margin_bottom">8dp</dimen>
+
+    <dimen name="name_text_padding">2dp</dimen>
+    <dimen name="name_text_size">30sp</dimen>
+
+
+</resources>

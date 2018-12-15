@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:title="@string/project_1_menu_title"
+    android:id="@+id/project1" />
+
+<item
+    android:title="@string/project_2_menu_title"
+    android:id="@+id/project2"/>
+
+<item
+    android:title="@string/project_3_menu_title"
+    android:id="@+id/project3"/>
+
+</menu>

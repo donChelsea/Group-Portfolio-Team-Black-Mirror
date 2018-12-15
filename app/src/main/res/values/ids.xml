@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gregg_clickable" type="id"/>
+    <item name="gregg_text_game" type="id"/>
+    <item name="gregg_mad_libs" type="id"/>
+
+
+
+</resources>

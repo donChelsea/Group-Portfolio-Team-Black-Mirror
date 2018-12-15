@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context=".Gregg_Biography"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/drawer_layout" />
+
+
+    <ImageView
+        android:id="@+id/Gregg_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bio_pic_background"
+        android:contentDescription="@string/Gregg_Content_Descrip"
+
+        android:src="@mipmap/ic_gregg_profile_pic_round"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/include2"
+        app:layout_constraintTop_toBottomOf="@+id/gregg_nameview"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/gregg_nameview"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/name_margin_start"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="@dimen/name_margin_end"
+        android:fontFamily="sans-serif"
+        android:padding="@dimen/name_text_padding"
+        android:text="@string/gregg_name"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/name_text_size"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:fontFamily="@font/give_you_glory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.386">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/gregg_bio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:text="@string/gregg_bio"
+                android:textColor="#FFFFFFFF"
+                android:textSize="18sp"
+                app:fontFamily="@font/give_you_glory" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

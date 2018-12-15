@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/khaing_projects">
+
+        <item
+            android:id= "@+id/game"
+            android:title="@string/text_based_adventure_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/story"
+            android:title="@string/mad_libs_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/exercise_recyclerview"
+            android:title="@string/recyclerview_exercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:showAsAction="never" />
+
+
+    </menu>

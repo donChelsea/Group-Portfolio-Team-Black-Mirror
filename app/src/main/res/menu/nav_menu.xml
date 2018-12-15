@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/marly"
+            android:title="@string/marly"
+            android:icon="@drawable/ic_action_design"/>
+
+        <item
+            android:id="@+id/khaing"
+            android:title="@string/khaing"
+            android:icon="@drawable/ic_action_merge"/>
+
+        <item
+            android:id="@+id/gregg"
+            android:title="@string/gregg"
+            android:icon="@drawable/ic_action_slide"/>
+
+        <item
+            android:id="@+id/chelsea"
+            android:title="@string/chelsea"
+            android:icon="@drawable/androidwave"/>
+
+    </group>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/gregg_projects">
+
+    <item
+        android:id="@+id/gregg_mad_libs"
+        android:title="@string/gregg_mad_libs_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/gregg_text_game"
+        android:title="@string/gregg_text_based_adventure_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/gregg_clickable"
+        android:title="@string/gregg_clickable_images_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:showAsAction="never" />
+
+</menu>

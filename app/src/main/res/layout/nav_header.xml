@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@color/colorRed"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:gravity="bottom"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_black_mirror"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/give_you_glory"
+        android:textSize="28sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        />
+
+</LinearLayout>
