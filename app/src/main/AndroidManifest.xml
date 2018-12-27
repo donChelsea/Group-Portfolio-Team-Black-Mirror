@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
+        <!-- Collapse this tag -->
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".SplashPage">
             <intent-filter>

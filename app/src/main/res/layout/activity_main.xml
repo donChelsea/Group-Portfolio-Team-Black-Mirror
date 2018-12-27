@@ -8,6 +8,9 @@
     android:background="@color/colorBlack"
     tools:context=".MainActivity">
 
+    <!-- Slight performance issue the layout paints the background with the color black while the theme
+    paints the background white this is overdrawing the screen -->
+
     <TextView
         android:id="@+id/team_name_textview"
         android:layout_width="wrap_content"
@@ -24,6 +27,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045" />
+
+  <!--marginLeft is redundant if you already set marginStart, these are the same things-->
 
     <TextView
         android:id="@+id/description_textview"
