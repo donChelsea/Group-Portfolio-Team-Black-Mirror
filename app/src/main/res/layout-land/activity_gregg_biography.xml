@@ -78,7 +78,7 @@
                 android:text="@string/gregg_bio"
                 android:textColor="#FFFFFFFF"
                 android:textSize="18sp"
-                app:fontFamily="@font/give_you_glory" />
+                android:fontFamily="sans-serif" />
         </LinearLayout>
     </ScrollView>
 

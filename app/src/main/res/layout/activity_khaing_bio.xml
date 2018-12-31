@@ -74,7 +74,7 @@
                 android:textColor="#ffffff"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/give_you_glory"
+                android:fontFamily="sans-serif"
                 android:textSize="15sp"
                 android:scrollbars="vertical"
                 android:textStyle="italic"/>

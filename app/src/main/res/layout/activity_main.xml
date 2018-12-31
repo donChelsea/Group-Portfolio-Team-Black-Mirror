@@ -4,9 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/colorBlack"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <!-- Slight performance issue the layout paints the background with the color black while the theme
+    paints the background white this is overdrawing the screen -->
 
     <TextView
         android:id="@+id/team_name_textview"
@@ -25,6 +28,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045" />
 
+    <!--marginLeft is redundant if you already set marginStart, these are the same things-->
+
     <TextView
         android:id="@+id/description_textview"
         android:layout_width="wrap_content"
@@ -33,13 +38,13 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:padding="8dp"
+        android:fontFamily="sans-serif"
         android:gravity="center"
+        android:padding="8dp"
         android:text="@string/description_string"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:fontFamily="@font/give_you_glory"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -60,7 +65,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/team_name_textview" />
 
-    <include
-        layout="@layout/drawer_layout" />
+    <include layout="@layout/drawer_layout" />
 
 </android.support.constraint.ConstraintLayout>

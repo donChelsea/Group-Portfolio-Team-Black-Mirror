@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
     private ActionBar actionBar;
     private NavigationView navigationView;
 
+    /**
+     * Condense your drawable directory unused resources make applications larger and slow down builds.
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,6 +7,11 @@
     android:background="#000000"
     tools:context=".Biography">
 
+  <!-- Slight performance issue the layout paints the background with the color black while the theme
+  paints the background white this is overdrawing the screen -->
+
+    <!-- The file name should be descriptive and consistent with the other layout files -->
+
     <include
         android:id="@+id/include3"
         layout="@layout/drawer_layout"
@@ -57,6 +62,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+    <!-- ScrollView children should set their layout_width or layout_height attributes to wrap_content rather than match_parent for size validation -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -74,7 +81,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/give_you_glory"
+                android:fontFamily="sans-serif"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"

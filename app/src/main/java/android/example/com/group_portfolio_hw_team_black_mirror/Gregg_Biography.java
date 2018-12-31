@@ -8,6 +8,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ *  Java Class names should follow UpperCamelCase format where the first letter of the new word is upper case
+ */
+
 public class Gregg_Biography extends AppCompatActivity {
     private Toolbar toolbar;
 

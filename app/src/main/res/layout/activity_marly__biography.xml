@@ -72,7 +72,7 @@
                 android:id="@+id/tv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/give_you_glory"
+                android:fontFamily="sans-serif"
                 android:text="@string/my_bio_text"
                 android:textAlignment="textStart"
                 android:textColor="#ffffff"
