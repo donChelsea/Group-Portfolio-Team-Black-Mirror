@@ -9,12 +9,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
@@ -46,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case R.id.chelsea:
                         menuItem.setChecked(true);
-                        Intent chelseaIntent = new Intent(MainActivity.this, Biography.class);
+                        Intent chelseaIntent = new Intent(MainActivity.this, Chelsea_Biography.class);
                         startActivity(chelseaIntent);
                         drawerLayout.closeDrawers();
                         break;
