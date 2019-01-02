@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Biography"
+            android:name=".Chelsea_Biography"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Marly_Biography"
