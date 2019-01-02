@@ -16,14 +16,14 @@ import android.widget.Toast;
  * Class Name should be clearer and should be the same format as the other classes
  */
 
-public class Biography extends AppCompatActivity {
+public class Chelsea_Biography extends AppCompatActivity {
     private Toolbar toolbar;
     private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_biography);
+        setContentView(R.layout.activity_chelsea_biography);
 
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -41,7 +41,7 @@ public class Biography extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.popup_menu, menu);
+        inflater.inflate(R.menu.chelsea_menu, menu);
         return true;
     }
 
